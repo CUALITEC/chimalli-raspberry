@@ -17,4 +17,5 @@ def colores_base():
     sleep(1)
 
 if __name__ == '__main__':
-    colores_base()
+    while True:
+        colores_base()

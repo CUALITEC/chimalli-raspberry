@@ -10,5 +10,5 @@ if __name__ == "__main__":
             led.value = 0
         else:
             led.value = pot.value
-        print (pot.value) #Imprime el valor analógico leído
-        sleep (0.1) #Tiempo de esperar para volver a leer el valor
+    print (pot.value) #Imprime el valor analógico leído
+    sleep (0.1) #Tiempo de esperar para volver a leer el valor
